@@ -1,0 +1,192 @@
+/* Adding Quicksand font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-regular {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* --------------------- */
+
+/* No margin and No Padding */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* --------------------- */
+
+/* --------------------- */
+nav, .banner{
+    max-width: 1160px;
+    margin: 0px auto;
+    padding: 20px 140px;
+}
+/* --------------------- */
+
+/* Navbar Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-headings-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-image{
+    width: 62px;
+    height: 62px;
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.nav-link-items{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.nav-links a{
+    text-decoration: none;
+}
+
+.home{
+    color: rgba(254, 163, 1, 1);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.about{
+    color: rgba(1, 172, 253, 1);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.facilities{
+    color: rgba(5, 212, 223, 1);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.admission{
+    color: rgba(93, 88, 239, 1);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-contact-btn{
+    width: 197px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(254, 163, 1, 1);
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+}
+
+.nav-hamburger-icon{
+    visibility: hidden;
+}
+
+/* --------------------- */
+
+
+/* Banner Styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-items{
+    align-items: start;
+    margin: 122px 50px 122px 0px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 56px;
+    margin-bottom: 24px;
+    color: rgba(17, 17, 17, 1);
+}
+
+.banner-empower{
+    color: rgba(254, 163, 1, 1);
+}
+
+.banner-vision{
+    color: rgba(1, 172, 253, 1);
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.banner-btn{
+    width: 197px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+}
+
+.banner-image-container{
+    width: 468px;
+    height: 575px;
+}
+
+.banner-image{
+    height: 100%;
+}
+
+/* Navbar Media Query */
+@media screen and (max-width:576px) {
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgba(254, 163, 1, 1);
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .nav-hamburger-icon{
+        visibility: visible;
+    }
+}
+/* --------------------- */
+
+/* Banner Media Query */
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner-items{
+        align-items: center;
+        text-align: center;
+    }
+}
+/* --------------------- */
