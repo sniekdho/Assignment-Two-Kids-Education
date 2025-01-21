@@ -163,8 +163,7 @@ nav{
 @media screen and (max-width:576px) {
 
     nav{
-        display: flex;
-        justify-content: space-between;
+        padding: 12px 16px;
         border: 1px solid rgba(254, 163, 1, 1);
     }
 
