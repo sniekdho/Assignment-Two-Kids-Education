@@ -158,6 +158,108 @@ nav{
 .banner-image{
     height: 100%;
 }
+/* --------------------- */
+
+/* Standard Curriculum Styles */
+.standard-curriculum{
+    max-width: 1160px;
+    margin: 0px auto;
+    padding: 20px 140px;
+    background-image: url(../assets/bg.png);
+}
+
+.curriculum-title{
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.curriculum-container{
+    display: flex;
+    max-width: 80px 140px;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.curriculum-kinder, .curriculum-elementary, .curriculum-middle{
+    max-width: 370px;
+    max-height: 480px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.curriculum-kinder{
+    background-image: linear-gradient(rgba(222, 245, 255, 1), rgba(240, 240, 240, 0.545));
+}
+
+.curriculum-elementary{
+    background-image: linear-gradient(rgba(255, 244, 220, 1), rgba(222, 222, 222, 0.574));
+}
+
+.curriculum-middle{
+    background-image: linear-gradient(rgba(238, 225, 255, 1), rgba(212, 212, 212, 0.26));
+}
+
+.curriculum-kinder-image-container, .curriculum-elementary-image-container, .curriculum-middle-image-container{
+    margin: 52px 115px 0px 115px;
+    max-width: 136px;
+    max-height: 136px;
+}
+
+.curriculum-kinder-title, .curriculum-elementary-title, .curriculum-middle-title{
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(32, 32, 32, 1);
+}
+
+.curriculum-kinder-description, .curriculum-elementary-description, .curriculum-middle-description{
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 20px;
+    color: rgba(128, 128, 128, 1);
+}
+
+.curriculum-kinder-read-more, .curriculum-elementary-read-more, .curriculum-middle-read-more{
+    margin: 32px 130px 50px 130px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.curriculum-kinder-read-more{
+    color: rgba(100, 200, 255, 1);
+}
+
+.curriculum-elementary-read-more{
+    color: rgba(240, 170, 0, 1);
+}
+
+.curriculum-middle-read-more{
+    color: rgba(135, 0, 255, 1);
+}
+
+.arrow-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    gap: 5px;
+}
+
+.left-arrow{
+    background-color: rgba(254, 163, 1, 1);
+    border-radius: 30px;
+}
+
+.right-arrow{
+    background-color: rgba(254, 163, 1, 1);
+    border-radius: 30px;
+}
+
+
+/* --------------------- */
 
 /* Navbar Media Query */
 @media screen and (max-width:576px) {
@@ -186,6 +288,25 @@ nav{
     .banner-items{
         align-items: center;
         text-align: center;
+    }
+}
+/* --------------------- */
+
+/* Standard Curriculum Query */
+@media screen and (max-width:576px) {
+
+    .standard-curriculum{
+        text-align: center;
+    }
+
+    .curriculum-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .hide{
+        display: none;
     }
 }
 /* --------------------- */
