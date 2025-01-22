@@ -2,91 +2,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 .quicksand-regular {
-  font-family: "Quicksand", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
+
 /* --------------------- */
 
 /* No margin and No Padding */
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
+
 /* --------------------- */
 
 /* --------------------- */
-nav, .banner{
+nav,
+.banner {
     max-width: 1160px;
     margin: 0px auto;
     padding: 20px 140px;
 }
+
 /* --------------------- */
 
 /* Navbar Styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-headings-container{
+.nav-headings-container {
     display: flex;
     align-items: center;
 }
 
-.nav-image{
+.nav-image {
     width: 62px;
     height: 62px;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 700;
     font-size: 32px;
 }
 
-.nav-link-items{
+.nav-link-items {
     display: flex;
     list-style: none;
     gap: 32px;
 }
 
-.nav-links a{
+.nav-links a {
     text-decoration: none;
 }
 
-.home{
+.home {
     color: rgba(254, 163, 1, 1);
     font-weight: 700;
     font-size: 20px;
 }
 
-.about{
+.about {
     color: rgba(1, 172, 253, 1);
     font-weight: 500;
     font-size: 20px;
 }
 
-.facilities{
+.facilities {
     color: rgba(5, 212, 223, 1);
     font-weight: 500;
     font-size: 20px;
 }
 
-.admission{
+.admission {
     color: rgba(93, 88, 239, 1);
     font-weight: 500;
     font-size: 20px;
 }
 
-.nav-icons-container{
+.nav-icons-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav-contact-btn{
+.nav-contact-btn {
     width: 197px;
     height: 50px;
     font-weight: 600;
@@ -98,47 +102,59 @@ nav{
     padding: 10px;
 }
 
-.nav-hamburger-icon{
+.nav-hamburger-icon {
     visibility: hidden;
 }
+/* --------------------- */
 
+/* Marquee Styles */
+marquee{
+    margin-top: 5px;
+    background-image:linear-gradient(rgb(247, 197, 111), rgb(223, 244, 253));
+    font-weight: bold;
+    color: rgb(141, 100, 30);
+    max-width: 67%;
+    margin-left: 15%;
+    border-radius: 10px;
+    border: none;
+}
 /* --------------------- */
 
 
 /* Banner Styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.banner-items{
+.banner-items {
     align-items: start;
     margin: 122px 50px 122px 0px;
 }
 
-.banner-title{
+.banner-title {
     font-weight: 700;
     font-size: 56px;
     margin-bottom: 24px;
     color: rgba(17, 17, 17, 1);
 }
 
-.banner-empower{
+.banner-empower {
     color: rgba(254, 163, 1, 1);
 }
 
-.banner-vision{
+.banner-vision {
     color: rgba(1, 172, 253, 1);
 }
 
-.banner-description{
+.banner-description {
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 24px;
 }
 
-.banner-btn{
+.banner-btn {
     width: 197px;
     height: 50px;
     font-weight: 600;
@@ -150,25 +166,26 @@ nav{
     padding: 10px;
 }
 
-.banner-image-container{
+.banner-image-container {
     width: 468px;
     height: 575px;
 }
 
-.banner-image{
+.banner-image {
     height: 100%;
 }
+
 /* --------------------- */
 
 /* Standard Curriculum Styles */
-.standard-curriculum{
+.standard-curriculum {
     max-width: 1160px;
     margin: 0px auto;
     padding: 20px 140px;
     background-image: url(../assets/bg.png);
 }
 
-.curriculum-title{
+.curriculum-title {
     font-weight: 700;
     font-size: 46px;
     color: rgba(0, 0, 0, 1);
@@ -176,7 +193,7 @@ nav{
     margin-top: 60px;
 }
 
-.curriculum-container{
+.curriculum-container {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -185,39 +202,47 @@ nav{
     margin-top: 40px;
 }
 
-.curriculum-kinder, .curriculum-elementary, .curriculum-middle{
+.curriculum-kinder,
+.curriculum-elementary,
+.curriculum-middle {
     max-width: 370px;
     max-height: 480px;
     border-radius: 20px;
     text-align: center;
 }
 
-.curriculum-kinder{
+.curriculum-kinder {
     background-image: linear-gradient(rgba(222, 245, 255, 1), rgba(240, 240, 240, 0.545));
 }
 
-.curriculum-elementary{
+.curriculum-elementary {
     background-image: linear-gradient(rgba(255, 244, 220, 1), rgba(222, 222, 222, 0.574));
 }
 
-.curriculum-middle{
+.curriculum-middle {
     background-image: linear-gradient(rgba(238, 225, 255, 1), rgba(212, 212, 212, 0.26));
 }
 
-.curriculum-kinder-image-container, .curriculum-elementary-image-container, .curriculum-middle-image-container{
+.curriculum-kinder-image-container,
+.curriculum-elementary-image-container,
+.curriculum-middle-image-container {
     margin: 52px 115px 0px 115px;
     max-width: 136px;
     max-height: 136px;
 }
 
-.curriculum-kinder-title, .curriculum-elementary-title, .curriculum-middle-title{
+.curriculum-kinder-title,
+.curriculum-elementary-title,
+.curriculum-middle-title {
     margin-top: 32px;
     font-weight: 700;
     font-size: 24px;
     color: rgba(32, 32, 32, 1);
 }
 
-.curriculum-kinder-description, .curriculum-elementary-description, .curriculum-middle-description{
+.curriculum-kinder-description,
+.curriculum-elementary-description,
+.curriculum-middle-description {
     margin-top: 32px;
     font-weight: 500;
     font-size: 15px;
@@ -225,25 +250,27 @@ nav{
     color: rgba(128, 128, 128, 1);
 }
 
-.curriculum-kinder-read-more, .curriculum-elementary-read-more, .curriculum-middle-read-more{
+.curriculum-kinder-read-more,
+.curriculum-elementary-read-more,
+.curriculum-middle-read-more {
     margin: 32px 130px 50px 130px;
     font-weight: 700;
     font-size: 15px;
 }
 
-.curriculum-kinder-read-more{
+.curriculum-kinder-read-more {
     color: rgba(100, 200, 255, 1);
 }
 
-.curriculum-elementary-read-more{
+.curriculum-elementary-read-more {
     color: rgba(240, 170, 0, 1);
 }
 
-.curriculum-middle-read-more{
+.curriculum-middle-read-more {
     color: rgba(135, 0, 255, 1);
 }
 
-.arrow-container{
+.arrow-container {
     display: flex;
     justify-content: center;
     margin-top: 80px;
@@ -251,26 +278,25 @@ nav{
     gap: 5px;
 }
 
-.left-arrow{
+.left-arrow {
     background-color: rgba(254, 163, 1, 1);
     border-radius: 30px;
 }
 
-.right-arrow{
+.right-arrow {
     background-color: rgba(254, 163, 1, 1);
     border-radius: 30px;
 }
+
 /* --------------------- */
 
 /* Our Stories Styles */
-.our-stories{
-    /* max-width: 1160px; */
-    /* margin: 0px auto; */
-    /* padding: 20px 140px; */
+.our-stories {
     background-image: url(../assets/bg.png);
     background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(254, 163, 1, 1));
 }
-.stories-title{
+
+.stories-title {
     font-weight: 700;
     font-size: 46px;
     color: rgba(0, 0, 0, 1);
@@ -278,17 +304,16 @@ nav{
     margin-top: 60px;
 }
 
-.stories-container{
+.stories-container {
     display: flex;
     justify-content: center;
-    /* background-color: brown; */
-    margin-top: 80px;
-    /* max-width: 1160px; */
-    /* height: 630px; */
+    /* margin-top: 80px; */
     gap: 20px;
+    /* width: 1160px; */
+    margin: 80px auto 0px auto;
 }
 
-.stories-single-container{
+.stories-single-container {
     width: 540px;
     height: 630px;
     border-radius: 16px;
@@ -296,34 +321,115 @@ nav{
     background-color: rgba(255, 255, 255, 1);
 }
 
-.story-one-image{
+.story-one-image {
     width: 540px;
     height: 337px;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
 
-.story-one-title{
+.floating-btn-container {
+    display: block;
+    position: absolute;
+    left: 20%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.floating-btn {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(60, 216, 232, 1);
+    border-radius: 50px;
+    border: none;
+    padding: 15px;
+}
+
+.floating-btn-container-story2{
+    display: block;
+    position: absolute;
+    left: 60%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.floating-btn-story2 {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(149, 178, 38, 1);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+}
+
+.floating-btn-container-story3{
+    display: block;
+    position: absolute;
+    left: 79%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.floating-btn-story3{
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(93, 88, 240, 1);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+}
+
+.floating-btn-container-story4{
+    display: block;
+    position: absolute;
+    left: 60%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.floating-btn-story4{
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(149, 178, 38, 1);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+}
+
+.floating-btn-container-story5{
+    display: block;
+    position: absolute;
+    left: 78%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.floating-btn-story5{
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(149, 178, 38, 1);
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+}
+
+.story-one-title {
     margin-top: 60px;
     font-weight: 700;
     font-size: 24px;
     color: rgba(0, 0, 0, 1);
 }
 
-.story-one-description{
+.story-one-description {
     margin-top: 50px;
     font-weight: 500;
     font-size: 12px;
     color: rgba(102, 102, 102, 1);
 }
 
-.stories-multiple-container{
+.stories-multiple-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
 
-.stories-card{
+.stories-card {
     width: 250px;
     height: 310px;
     text-align: center;
@@ -331,24 +437,31 @@ nav{
     background-color: rgba(255, 255, 255, 1);
 }
 
-.stories-card > img{
+.story-multiple-image{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.stories-card>img {
     width: 100%;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
 
-.story-multiple-title{
+.story-multiple-title {
     margin-top: 40px;
     font-weight: 700;
     font-size: 15px;
     color: rgba(0, 0, 0, 1);
 }
 
-.stories-btn-container{
+.stories-btn-container {
     text-align: center;
 }
 
-.stories-btn{
+.stories-btn {
     margin-top: 80px;
     width: 197px;
     height: 50px;
@@ -361,136 +474,180 @@ nav{
     padding: 10px;
     margin-bottom: 60px;
 }
+
 /* --------------------- */
 
 /* Footer Styles */
-.footer-content-container{
+.footer-content-container {
     display: flex;
     justify-content: space-between;
     padding: 140px;
     background-color: rgba(1, 172, 253, 1);
 }
 
-.footer-first-content-headings{
+.footer-first-content-headings {
     display: flex;
     align-items: center;
 }
 
-.footer-first-content-title{
+.footer-first-content-title {
     font-weight: 700;
     font-size: 42px;
     color: rgba(255, 255, 255, 1);
 }
 
-.footer-first-content-description-container{
+.footer-first-content-description-container {
     margin-top: 40px;
     width: 400px;
 }
 
-.footer-first-content-description{
+.footer-first-content-description {
     font-weight: 400;
     font-size: 12px;
     color: rgba(255, 255, 255, 1);
 }
 
-.footer-second-content-title{
+.footer-second-content-title {
     margin-bottom: 32px;
     font-weight: 700;
     font-size: 20px;
     color: rgba(255, 255, 255, 1);
 }
 
-.footer-second-content > ul{
+.footer-second-content>ul {
     list-style: none;
 }
 
-.footer-second-content li{
+.footer-second-content li {
     margin-bottom: 20PX;
 }
 
-.footer-second-content a{
+.footer-second-content a {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
 }
 
-.footer-third-content-title{
+.footer-third-content-title {
     margin-bottom: 32px;
     font-weight: 700;
     font-size: 24px;
     color: rgba(255, 255, 255, 1);
 }
+
 /* --------------------- */
 
 /* Navbar Media Query */
 @media screen and (max-width:576px) {
 
-    nav{
+    nav {
         padding: 12px 16px;
         border: 1px solid rgba(254, 163, 1, 1);
     }
 
-    .hide{
+    .hide {
         display: none;
     }
 
-    .nav-hamburger-icon{
+    .nav-hamburger-icon {
         visibility: visible;
     }
 }
+
 /* --------------------- */
 
 /* Banner Media Query */
 @media screen and (max-width:576px) {
-    .banner{
+    .banner {
         flex-direction: column-reverse;
     }
 
-    .banner-items{
+    .banner-items {
         align-items: center;
         text-align: center;
     }
 }
+
 /* --------------------- */
 
 /* Standard Curriculum Media Query */
 @media screen and (max-width:576px) {
 
-    .standard-curriculum{
+    .standard-curriculum {
         text-align: center;
     }
 
-    .curriculum-container{
+    .curriculum-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
 
-    .hide{
+    .hide {
         display: none;
     }
 }
+
 /* --------------------- */
 
 /* Our Stories Media Query */
 @media screen and (max-width:576px) {
 
-    .hide{
+    .hide {
         display: none;
     }
 
-    .stories-container{
+    .stories-container {
         justify-content: center;
         padding: 15px;
     }
+
+    .floating-btn-container-story2{
+        display: block;
+        position: absolute;
+        left: 20%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+
+    .floating-btn-container-story4{
+        display: block;
+        position: absolute;
+        left: 20%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+
+    .floating-btn-container-story3{
+        display: block;
+        position: absolute;
+        left: 71%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+
+    .floating-btn-container-story5{
+        display: block;
+        position: absolute;
+        left: 71%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    
 }
+
 /* --------------------- */
 
 /* Footer Media Query */
 @media screen and (max-width:576px) {
 
-    .footer-content-container{
+    .footer-content-container {
         flex-direction: column;
         padding: 15px;
     }
+
+    .footer-second-content {
+        margin-top: 20px;
+    }
+
+    .footer-third-content {
+        margin-top: 20px;
+    }
 }
+
 /* --------------------- */
