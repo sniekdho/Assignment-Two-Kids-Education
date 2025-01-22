@@ -266,7 +266,7 @@ nav{
 .our-stories{
     /* max-width: 1160px; */
     /* margin: 0px auto; */
-    padding: 20px 140px;
+    /* padding: 20px 140px; */
     background-image: url(../assets/bg.png);
     background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(254, 163, 1, 1));
 }
@@ -280,9 +280,11 @@ nav{
 
 .stories-container{
     display: flex;
+    justify-content: center;
+    /* background-color: brown; */
     margin-top: 80px;
-    max-width: 1160px;
-    height: 630px;
+    /* max-width: 1160px; */
+    /* height: 630px; */
     gap: 20px;
 }
 
@@ -478,6 +480,7 @@ nav{
 
     .stories-container{
         justify-content: center;
+        padding: 15px;
     }
 }
 /* --------------------- */
