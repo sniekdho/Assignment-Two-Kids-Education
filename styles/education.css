@@ -171,12 +171,15 @@ nav{
 .curriculum-title{
     font-weight: 700;
     font-size: 46px;
+    color: rgba(0, 0, 0, 1);
     text-align: center;
     margin-top: 60px;
 }
 
 .curriculum-container{
     display: flex;
+    text-align: center;
+    justify-content: center;
     max-width: 80px 140px;
     gap: 10px;
     margin-top: 40px;
@@ -257,9 +260,106 @@ nav{
     background-color: rgba(254, 163, 1, 1);
     border-radius: 30px;
 }
-
-
 /* --------------------- */
+
+/* Our Stories Styles */
+.our-stories{
+    max-width: 1160px;
+    margin: 0px auto;
+    padding: 20px 140px;
+    background-image: url(../assets/bg.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(254, 163, 1, 1));
+}
+.stories-title{
+    font-weight: 700;
+    font-size: 46px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 60px;
+}
+
+.stories-container{
+    display: flex;
+    margin-top: 80px;
+    max-width: 1160px;
+    height: 630px;
+    gap: 20px;
+}
+
+.stories-single-container{
+    width: 540px;
+    height: 630px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.story-one-image{
+    width: 540px;
+    height: 337px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.story-one-title{
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.story-one-description{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.stories-multiple-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.stories-card{
+    width: 250px;
+    height: 310px;
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.stories-card > img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.story-multiple-title{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.stories-btn-container{
+    text-align: center;
+}
+
+.stories-btn{
+    margin-top: 80px;
+    width: 197px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+}
+/* --------------------- */
+
 
 /* Navbar Media Query */
 @media screen and (max-width:576px) {
@@ -292,7 +392,7 @@ nav{
 }
 /* --------------------- */
 
-/* Standard Curriculum Query */
+/* Standard Curriculum Media Query */
 @media screen and (max-width:576px) {
 
     .standard-curriculum{
@@ -307,6 +407,19 @@ nav{
 
     .hide{
         display: none;
+    }
+}
+/* --------------------- */
+
+/* Our Stories Media Query */
+@media screen and (max-width:576px) {
+
+    .hide{
+        display: none;
+    }
+
+    .stories-container{
+        justify-content: center;
     }
 }
 /* --------------------- */
